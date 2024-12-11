@@ -19,9 +19,9 @@ struct SeasonView: View {
             VStack {
                 Image(systemName: seasonToShow.image)
                     .resizable()
-                    .frame(width: 40, height: 40)
-                    .padding()
-                
+                    .frame(width: 30, height: 30)
+                    .padding(.horizontal, 4)
+                    .padding(.vertical)
                 Spacer()
             }
             
@@ -32,6 +32,7 @@ struct SeasonView: View {
                     .font(.system(.title, design: .default, weight: .semibold))
                 // Text
                 Text(seasonToShow.text)
+                    .font(.system(size: 17.0, weight: .regular, design: .default))
             }
         }
     }

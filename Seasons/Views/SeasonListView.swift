@@ -21,7 +21,6 @@ struct SeasonListView: View {
             .navigationTitle("The Seasons")
         }
     }
-    
 }
 
 #Preview {
