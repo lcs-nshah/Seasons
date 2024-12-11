@@ -5,7 +5,7 @@
 //  Created by Neil Shah on 2024-12-10.
 //
 
-import SwiftUI
+import Foundation
 
 struct Season {
     let title: String
