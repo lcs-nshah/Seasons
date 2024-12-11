@@ -14,10 +14,10 @@ struct Season {
 }
 
 // Create instances of the structure
-// Spring
 let spring = Season(title: "Spring", text: "kkjwrv jwkf h fjwerj hrkfj wkejr kwjerhf wkjehr fwkehjr wk rfwek rfwkehrwekrg", image: "apple.meditate")
-// Summer
 
-// Autumn
+let summer = Season(title: "Summer", text: "hkj khfr fjhkfkj rf rejk rejk jjjkrwjkhewrjkwejk r urejkher ekj   kjgrwkw", image: "sun.max")
 
-// Winter
+let autumn = Season(title: "Autumn", text: "kj kfrhhk dk jjkv kvla;dskj I jl rjfh k jsf ir jkahf lkr wlh rkwrjgh wekrjh", image: "leaf")
+
+let winter = Season(title: "Winter", text: "jfker werhfjw ehrkjwerfh werkjf werfkjwerfh wer rfkhjewrf kk j erfjfrfjhk", image: "snowflake")
