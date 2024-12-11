@@ -7,18 +7,20 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct SeasonView: View {
+    
+    // MARK: Stored Property
+    let seasonToShow: Season
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            
+            
         }
         .padding()
     }
 }
 
 #Preview {
-    ContentView()
+    SeasonListView()
 }
