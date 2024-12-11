@@ -12,12 +12,28 @@ struct SeasonView: View {
     // MARK: Stored Property
     let seasonToShow: Season
     
+    // MARK: Computed Property
     var body: some View {
-        VStack {
+        HStack {
+            // Symbol
+            VStack {
+                Image(systemName: seasonToShow.image)
+                    .resizable()
+                    .frame(width: 40, height: 40)
+                    .padding()
+                
+                Spacer()
+            }
             
-            
+            // Text
+            VStack (alignment: .leading) {
+                // Season
+                Text(seasonToShow.title)
+                    .font(.system(.title, design: .default, weight: .semibold))
+                // Text
+                Text(seasonToShow.text)
+            }
         }
-        .padding()
     }
 }
 

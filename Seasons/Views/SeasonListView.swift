@@ -13,7 +13,7 @@ struct SeasonListView: View {
     var body: some View {
         NavigationStack {
             List {
-                                
+                SeasonView(seasonToShow: spring)
             }
             .navigationTitle("The Seasons")
         }
